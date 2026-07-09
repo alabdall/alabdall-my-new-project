@@ -8,8 +8,7 @@ Final project for the Building AI course
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
-
+Coding with AI is an AI-powered assistant that helps users learn programming by explaining concepts, debugging code, and generating solutions. The project aims to make coding more accessible by providing personalized guidance, reducing errors, and supporting learners as they build programming skills.
 
 ## Background
 
@@ -50,6 +49,7 @@ def main():
 main()
 ```
 
+![image of a cat](/cat_image.jpg)
 
 ## Data sources and AI methods
 Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
