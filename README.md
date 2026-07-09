@@ -1,79 +1,86 @@
-<!-- This is the markdown template for the final project of the Building AI course, 
-created by Reaktor Innovations and University of Helsinki. 
-Copy the template, paste it to your GitHub README and edit! -->
-
 # Coding with AI
-
-Final project for the Building AI course
+![image of a ai coding](/codingwithai.jpg)
 
 ## Summary
 
-Coding with AI is an AI-powered assistant that helps users learn programming by explaining concepts, debugging code, and generating solutions. The project aims to make coding more accessible by providing personalized guidance, reducing errors, and supporting learners as they build programming skills.
+Coding with AI is a smart assistant that helps people learn programming. It can explain code, find errors, and suggest solutions, making coding easier and more enjoyable for beginners and experienced programmers.
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+Learning programming can be difficult, especially for beginners. Many people spend hours trying to understand error messages or searching for answers online. Sometimes the explanations they find are too complicated.
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+This project is designed to make learning easier by giving clear explanations and helping users solve coding problems step by step.
 
+Some common problems it helps with:
+
+* Understanding programming concepts.
+* Finding and fixing coding errors.
+* Learning faster with simple explanations.
+* Saving time when solving programming problems.
+
+I chose this idea because I know how frustrating coding can be when you're learning. Having an AI assistant can make learning less stressful and help people become more confident.
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+The user simply types a question or pastes their code into the assistant.
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+The AI then:
 
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+* Explains what the code does.
+* Finds mistakes.
+* Suggests possible fixes.
+* Recommends better ways to write the code.
 
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
+This tool can be useful for students, self-learners, teachers, and anyone who wants help while programming.
 
-   totPop = sum(pop)
-   totFish = sum(fishers)
+Example:
 
-   # write your solution here
+```python
+def greet(name):
+    print("Hello", name)
 
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
+greet("I’m AI Coder Helper, and I’m here to assist you with whatever you need.")
 ```
 
-![image of a cat](/cat_image.jpg)
+The AI can explain how this function works and help improve it if needed.
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+The project uses programming knowledge from trusted public sources, such as:
+
+* Python Documentation
+* GitHub
+* Stack Overflow
+
+The AI uses Natural Language Processing (NLP) and Large Language Models (LLMs) to understand questions, explain code, and suggest solutions.
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+This project is meant to help programmers, not replace them.
+
+Some limitations are:
+
+* AI can sometimes give incorrect answers.
+* Users should always test the suggested code.
+* The AI may not fully understand very large or complex projects.
+* Users should avoid sharing private or sensitive code.
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+In the future, I would like to add:
 
+* Support for more programming languages.
+* Integration with code editors like VS Code.
+* Voice commands.
+* Personalized learning recommendations.
+* Better explanations for beginners.
+
+To improve the project, I would need more knowledge about machine learning, software development, and AI model training.
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+* Building AI course by the University of Helsinki and MinnaLearn.
+* Python Documentation.
+* GitHub.
+* Stack Overflow.
+* OpenAI for AI research and coding assistance.
